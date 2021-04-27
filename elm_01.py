@@ -1,5 +1,11 @@
 import numpy as np
 
+"""
+We need to initialize the class by giving it the number of nodes for our hidden layer i.e. hiddenSize.
+Then we require to feed in input data(x_train) with labels(y_train) into the train method.
+Input weight W and bias ‘b’ are chosen randomly of the appropriate size and it is okay not to add bias. I have applied the ReLu Activation function, although any other activation would work fine.
+"""
+
 class ELM(object):  
     
     def __init__(self, inputSize, outputSize, hiddenSize):
